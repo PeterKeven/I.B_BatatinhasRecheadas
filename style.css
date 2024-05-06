@@ -40,7 +40,6 @@ header {
     border-radius: 50%;
     margin-left: 10px;
     margin-top: 10px;
-    border: 2px solid #999;
 
 }
 
@@ -162,6 +161,184 @@ main br {
 
 }
 
+.Cards {
+
+    display: flex;
+    overflow-x: scroll;
+
+}
+
+.Cards a {
+
+    text-decoration: none;
+    color: #000;
+
+}
+
+#card {
+
+    border: 1px solid #a9a9a9;
+    width: 250px;
+    height: 540px;
+    border-radius: 30px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+
+}
+
+#card img {
+
+    border-radius: 30px 30px 0px 0px;
+    margin-bottom: 10px;
+
+}
+
+#card p {
+
+    padding: 15px;
+
+}
+
+#card h4 {
+
+    margin-bottom: 5px;
+
+}
+
+#card:hover {
+
+    border-color: #f00;
+
+}
+
+#BatataRecheada {
+
+    height: 350px;
+    width: 250px;
+
+}
+
+#batatarecheadatexto {
+
+    margin-top: 10px;
+
+}
+
+#combo01 {
+
+    height: 350px;
+    width: 250px;
+
+}
+
+#combo01texto {
+
+    margin-top: 18px;
+
+}
+
+#bolinhasdequeijo {
+
+    height: 350px;
+    width: 250px;
+
+}
+
+#bolinhasdequeijotexto {
+
+    margin-top: 27px;
+
+}
+
+#pastelazeitona {
+
+    height: 350px;
+    width: 250px;
+
+}
+
+#pastelazeitonatexto {
+
+    margin-top: 27px;
+
+}
+
+#pastelcarnedesol {
+
+    height: 350px;
+    width: 250px;
+
+}
+
+#pastelcarnedesoltexto {
+
+    margin: 5px;
+
+}
+
+#pastelcarnemoida {
+
+    height: 350px;
+    width: 250px;
+
+}
+
+#pastelcarnemoidatexto {
+
+    margin-top: 5px;
+
+}
+
+#pastelfrango {
+
+    height: 350px;
+    width: 250px;
+
+}
+
+#pastelfrangotexto {
+
+    margin-top: 28px;
+
+}
+
+#pastelmisto {
+
+    height: 350px;
+    width: 250px;
+
+}
+
+#pastelmistotexto {
+
+    margin-top: 28px;
+
+}
+
+#pastelmisto2 {
+
+    height: 350px;
+    width: 250px;
+
+}
+
+#pastelmisto2texto {
+
+    margin-top: 20px;
+
+}
+
+#bebidas {
+
+    height: 80vh;
+
+}
+
+#bebidas h2 {
+
+    padding: 15px;
+
+}
 
 /* Smartphone Landscape */
 @media (min-width: 576px){
@@ -252,6 +429,15 @@ nav ul li a {
 nav ul li a:hover {
 
     color: #c00000;
+
+}
+
+.Cards {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    overflow-x: auto;
 
 }
 
