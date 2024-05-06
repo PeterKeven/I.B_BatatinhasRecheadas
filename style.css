@@ -25,6 +25,20 @@ body {
 
 }
 
+.Flex2 {
+
+    display: flex;
+    flex-direction: column-reverse;
+
+}
+
+.Flex3 {
+
+    display: flex;
+    flex-direction: column;
+
+}
+
 /* Smartphone Portrait */
 header {
 
@@ -341,7 +355,8 @@ main br {
 
 #bebidas {
 
-    height: 80vh;
+    align-items: center;
+    text-align: center;
 
 }
 
@@ -518,15 +533,90 @@ main br {
 
 #doces {
 
-    height: 50vh;
+    align-items: center;
+    text-align: center;
 
 }
 
 #doces h2 {
 
     margin-top: 50px;
+    border-top: 1px solid #000;
     padding: 15px;
-    margin-bottom: 50px
+
+}
+
+#alpino {
+
+    height: 250px;
+    width: 250px;
+
+}
+
+#contato {
+
+    padding: 30px;
+    background-color: #808080;
+    color: #fff;
+    font-weight: 800;
+
+}
+
+#contatos p {
+
+    margin-bottom: 15px;
+
+}
+
+#localImg {
+
+    height: 40px;
+    width: 25px;
+
+}
+
+#endereco p {
+
+    margin-bottom: 5px;
+
+}
+
+#endereco a {
+
+    text-decoration: none;
+    color: #fff;
+
+}
+
+#endereco a img {
+
+    margin-top: 10px;
+
+}
+
+footer {
+
+    background-color: #343538;
+    padding: 60px;
+    color: #fff;
+
+}
+
+#footerTexto {
+
+    margin-bottom: 15px;
+
+}
+
+#googlemaps iframe {
+
+    display: none;
+
+}
+
+#googlemaps img {
+
+    margin-bottom: 10px;
 
 }
 
@@ -628,6 +718,34 @@ nav ul li a:hover {
     flex-wrap: wrap;
     justify-content: center;
     overflow-x: auto;
+
+}
+
+#googlemaps iframe {
+
+    display: inline;
+
+}
+
+#googlemaps img {
+
+    display: none;
+
+}
+
+.Flex2 {
+
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+
+}
+
+.Flex3 {
+
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
 
 }
 
