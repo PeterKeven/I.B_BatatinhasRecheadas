@@ -140,7 +140,6 @@ main br {
 
 #comidas {
 
-    height: 70vh;
     text-align: center;
 
 }
@@ -165,6 +164,7 @@ main br {
 
     display: flex;
     overflow-x: scroll;
+    margin-bottom: 30px;
 
 }
 
@@ -328,6 +328,17 @@ main br {
 
 }
 
+#botao {
+
+    background-color: #f00;
+    padding: 20px 50px 20px 50px;
+    border-radius: 50px;
+    border: 2px solid #a9a9a9;
+    text-decoration: none;
+    color: #fff;
+
+}
+
 #bebidas {
 
     height: 80vh;
@@ -337,6 +348,185 @@ main br {
 #bebidas h2 {
 
     padding: 15px;
+    border-top: 1px solid #000;
+    margin-top: 50px;
+
+}
+
+#CervejaBudweiser {
+
+    height: 350px;
+    width: 250px;
+
+}
+
+#CervejaBudweiserTexto {
+
+    margin-top: 20px;
+
+}
+
+#CervejaHeineken {
+
+    height: 350px;
+    width: 250px;
+
+}
+
+#CervejaHeinekenTexto {
+
+    margin-top: 20px;
+
+}
+
+#CervejaItaipava {
+
+    height: 350px;
+    width: 250px;   
+
+}
+
+#CervejaItaipavaTexto {
+
+    margin-top: 20px;
+
+}
+
+#CervejaSkol {
+
+    height: 350px;
+    width: 250px;   
+
+}
+
+#CervejaSkolTexto {
+
+    margin-top: 20px;
+
+}
+
+#CocaColaLata {
+
+    height: 350px;
+    width: 250px;   
+
+}
+
+#CocaColaLataTexto {
+
+    margin-top: 20px;
+
+}
+
+#CocaColaSemAçucarLata {
+
+    height: 350px;
+    width: 220px;   
+
+}
+
+#CocaColaSemAçucarLataTexto {
+
+    margin-top: 20px;
+
+}
+
+#FantaLaranja {
+
+    height: 350px;
+    width: 250px;   
+
+}
+
+#FantaLaranjaTexto {
+
+    margin-top: 20px;
+
+}
+
+#FantaUva {
+
+    height: 350px;
+    width: 250px;
+
+}
+
+#FantaUvaTexto {
+
+    margin-top: 20px;
+
+}
+
+#GuaranaAntarctica {
+
+    height: 350px;
+    width: 250px;
+
+}
+
+#GuaranaAntarcticaTexto {
+
+    margin-top: 20px;
+
+}
+
+#Pepsi {
+
+    height: 350px;
+    width: 150px;
+
+}
+
+#PepsiTexto {
+
+    margin-top: 25px;
+
+}
+
+#Redbull {
+
+    height: 330px;
+    width: 150px;
+    margin-top: 10px;
+
+}
+
+#RedBullH3Texto {
+
+    margin-top: 10px;
+
+}
+
+#RedbullTexto {
+
+    margin-top: 25px;
+
+}
+
+#Tampico {
+
+    height: 350px;
+    width: 250px;
+
+}
+
+#TampicoTexto {
+
+    margin-top: 25px;
+
+}
+
+#doces {
+
+    height: 50vh;
+
+}
+
+#doces h2 {
+
+    margin-top: 50px;
+    padding: 15px;
+    margin-bottom: 50px
 
 }
 
