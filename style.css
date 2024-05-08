@@ -273,7 +273,7 @@ main br {
 
 #pastelazeitonatexto {
 
-    margin-top: 27px;
+    margin-top: 25px;
 
 }
 
@@ -339,6 +339,19 @@ main br {
 #pastelmisto2texto {
 
     margin-top: 20px;
+
+}
+
+#PastelDoce {
+
+    height: 350px;
+    width: 250px;
+
+}
+
+#PastelDoceTexto {
+
+    margin-top: 25px;
 
 }
 
@@ -546,10 +559,9 @@ main br {
 
 }
 
-#alpino {
+address {
 
-    height: 250px;
-    width: 250px;
+    margin-top: 50px;
 
 }
 
@@ -620,6 +632,129 @@ footer {
 
 }
 
+#h3Texto {
+
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 1.5em;
+
+}
+
+#alpino {
+
+    height: 180px;
+    width: 230px;
+    margin-top: 40px;
+
+}
+
+#ChocolateNestleLacta {
+
+    height: 250px;
+    width: 250px;
+
+}
+
+#ChocolateOuroBrancoLacta {
+
+    height: 150px;
+    width: 230px;
+    margin-top: 65px;
+    margin-left: 20px;
+
+}
+
+#DiamanteNegro {
+
+    height: 150px;
+    width: 230px;
+    margin-top: 50px;
+
+}
+
+#ChocolateMM {
+
+    height: 150px;
+    width: 230px;
+    margin-top: 50px;
+
+}
+
+#Nutella {
+
+    height: 230px;
+    width: 200px;
+    margin-top: 10px;
+
+}
+
+#h3Alpino {
+
+    margin-top: 30px;
+    margin-bottom: 23px;
+
+}
+
+#h3ChocolateAoLeite {
+
+    margin-bottom: 23px;
+
+}
+
+#h3ouroBranco {
+
+    margin-top: 35px;
+
+}
+
+#h3ChocolateBranco {
+
+    margin-bottom: 23px;
+
+}
+
+#h3DiamanteNegro {
+
+    margin-top: 50px;
+    margin-bottom: 10px;
+
+}
+
+#h3MM {
+
+    margin-top: 50px;
+    margin-bottom: 23px;
+
+}
+
+#h3Oreo {
+
+    margin-top: 10px;
+    margin-bottom: 23px;
+
+}
+
+#h3Prestigio {
+
+    margin-top: 10px;
+    margin-bottom: 23px;
+
+}
+
+#h3SonhoDeValsa {
+
+    margin-top: 10px;
+
+}
+
+#h3Nutella {
+
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
 /* Smartphone Landscape */
 @media (min-width: 576px){
     .Container{
@@ -629,6 +764,12 @@ footer {
 main {
 
     height: 100vh;
+
+}
+
+footer {
+
+    text-align: center;
 
 }
 
